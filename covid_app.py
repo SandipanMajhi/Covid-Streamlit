@@ -166,7 +166,10 @@ if not st.sidebar.checkbox("Hide",True,key='1_1'):
             fig.update_layout(mapbox_style='dark', mapbox_accesstoken=mapaccess_token)
             fig.update_layout(margin={"r":0,"t":0,"l":0,"b":0})
             st.plotly_chart(fig)
-    elif select == "District-Wise":  
+    elif select == "District-Wise":
+        if select_mode == "Active":
+            act_string = "<h1 style = 'color:red';>Active Cases For District Coming Soon</h1>"
+            st.markdown(act_string, unsafe_allow_html=True)
         if select_mode == "Confirmed": 
             fig = px.scatter_mapbox(d,lon = "Longitude", lat = "Latitude", hover_name = "District", size = "Confirmed" ,
                             hover_data = ["State","Confirmed", "Recovered", "Deceased"], size_max = 45,
