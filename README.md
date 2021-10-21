@@ -1,3 +1,3 @@
 # Covid-Streamlit
 
-This is the live covid visualization application deployed in Heroku. The main file is the covid_app.py. The Code is open for distribution.
+This webapp visualizes current trends in covid cases in India. The web application has been developed using Streamlit. Please visit the link for the web application : https://covid-india-updates.herokuapp.com/
