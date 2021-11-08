@@ -16,6 +16,7 @@ Free Mapbox service is being used to locate the districts and states and show th
 4. Daily Deceased Cases + Total Deceased Cases
 5. Plots and Maps
 6. Regularly updated information
+7. Information of over 734 districts over India.
 
 # Guide to the Website
 1. Select the upper left arrow and select any option
